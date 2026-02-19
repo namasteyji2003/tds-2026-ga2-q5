@@ -21,7 +21,7 @@
       "rating": 4.2
     }
     
-    /* ADD remaining products until total = 18 */
+
   ],
   "aggregations": {
     "books": {
