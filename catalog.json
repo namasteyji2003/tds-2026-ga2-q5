@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "email": "23f1003053@ds.study.iitm.ac.in",
+    "version": "88cbe191"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "category": "books",
+      "price": 999.99,
+      "stock": 10,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "category": "books",
+      "price": 499.99,
+      "stock": 5,
+      "rating": 4.2
+    }
+    
+    /* ADD remaining products until total = 18 */
+  ],
+  "aggregations": {
+    "books": {
+      "count": 5,
+      "inventoryValue": 156879.39
+    }
+  }
+}
