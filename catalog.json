@@ -4,28 +4,27 @@
     "version": "88cbe191"
   },
   "products": [
-    {"id": 1, "name": "Book A", "category": "books", "price": 1999.99, "stock": 10, "rating": 4.5},
-    {"id": 2, "name": "Book B", "category": "books", "price": 2999.99, "stock": 5, "rating": 4.3},
-    {"id": 3, "name": "Book C", "category": "books", "price": 3999.99, "stock": 8, "rating": 4.7},
-    {"id": 4, "name": "Book D", "category": "books", "price": 2499.99, "stock": 6, "rating": 4.1},
-    {"id": 5, "name": "Book E", "category": "books", "price": 3499.99, "stock": 7, "rating": 4.6},
+    { "id": 1, "name": "Atomic Habits", "category": "books", "price": 499.99, "stock": 50, "rating": 4.8 },
+    { "id": 2, "name": "The Pragmatic Programmer", "category": "books", "price": 799.50, "stock": 30, "rating": 4.9 },
+    { "id": 3, "name": "Clean Code", "category": "books", "price": 650.00, "stock": 40, "rating": 4.7 },
+    { "id": 4, "name": "Deep Learning Illustrated", "category": "books", "price": 1200.00, "stock": 20, "rating": 4.6 },
+    { "id": 5, "name": "Introduction to Algorithms", "category": "books", "price": 2500.00, "stock": 33, "rating": 4.9 },
 
-    {"id": 6, "name": "Laptop X", "category": "electronics", "price": 59999.99, "stock": 4, "rating": 4.8},
-    {"id": 7, "name": "Headphones Y", "category": "electronics", "price": 2999.99, "stock": 15, "rating": 4.4},
-    {"id": 8, "name": "Keyboard Z", "category": "electronics", "price": 1999.99, "stock": 12, "rating": 4.2},
+    { "id": 6, "name": "Wireless Mouse", "category": "electronics", "price": 799.00, "stock": 60, "rating": 4.4 },
+    { "id": 7, "name": "Mechanical Keyboard", "category": "electronics", "price": 3499.00, "stock": 25, "rating": 4.7 },
+    { "id": 8, "name": "USB-C Charger", "category": "electronics", "price": 1299.00, "stock": 80, "rating": 4.5 },
+    { "id": 9, "name": "Bluetooth Headphones", "category": "electronics", "price": 2999.00, "stock": 35, "rating": 4.6 },
+    { "id": 10, "name": "Smartwatch", "category": "electronics", "price": 5999.00, "stock": 15, "rating": 4.3 },
 
-    {"id": 9, "name": "T-Shirt", "category": "fashion", "price": 999.99, "stock": 20, "rating": 4.0},
-    {"id": 10, "name": "Jeans", "category": "fashion", "price": 1999.99, "stock": 10, "rating": 4.3},
-    {"id": 11, "name": "Sneakers", "category": "fashion", "price": 2999.99, "stock": 8, "rating": 4.6},
+    { "id": 11, "name": "Men's T-Shirt", "category": "clothing", "price": 499.00, "stock": 100, "rating": 4.2 },
+    { "id": 12, "name": "Women's Jeans", "category": "clothing", "price": 1499.00, "stock": 45, "rating": 4.5 },
+    { "id": 13, "name": "Sneakers", "category": "clothing", "price": 2499.00, "stock": 30, "rating": 4.6 },
+    { "id": 14, "name": "Jacket", "category": "clothing", "price": 3499.00, "stock": 20, "rating": 4.4 },
 
-    {"id": 12, "name": "Sofa", "category": "furniture", "price": 25999.99, "stock": 3, "rating": 4.5},
-    {"id": 13, "name": "Dining Table", "category": "furniture", "price": 19999.99, "stock": 2, "rating": 4.4},
-    {"id": 14, "name": "Chair", "category": "furniture", "price": 4999.99, "stock": 6, "rating": 4.1},
-
-    {"id": 15, "name": "Milk", "category": "groceries", "price": 49.99, "stock": 100, "rating": 4.2},
-    {"id": 16, "name": "Bread", "category": "groceries", "price": 39.99, "stock": 80, "rating": 4.0},
-    {"id": 17, "name": "Eggs", "category": "groceries", "price": 79.99, "stock": 60, "rating": 4.3},
-    {"id": 18, "name": "Rice Bag", "category": "groceries", "price": 999.99, "stock": 25, "rating": 4.5}
+    { "id": 15, "name": "Office Chair", "category": "furniture", "price": 6999.00, "stock": 10, "rating": 4.5 },
+    { "id": 16, "name": "Study Table", "category": "furniture", "price": 8999.00, "stock": 8, "rating": 4.6 },
+    { "id": 17, "name": "Bookshelf", "category": "furniture", "price": 5499.00, "stock": 12, "rating": 4.3 },
+    { "id": 18, "name": "Bedside Lamp", "category": "furniture", "price": 1299.00, "stock": 25, "rating": 4.4 }
   ],
   "aggregations": {
     "books": {
