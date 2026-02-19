@@ -4,27 +4,150 @@
     "version": "88cbe191"
   },
   "products": [
-    { "id": "prod-88cbe191-001", "name": "Atomic Habits", "category": "books", "price": 499.99, "stock": 50, "rating": 4.8 },
-    { "id": "prod-88cbe191-002", "name": "The Pragmatic Programmer", "category": "books", "price": 799.50, "stock": 30, "rating": 4.9 },
-    { "id": "prod-88cbe191-003", "name": "Clean Code", "category": "books", "price": 650.00, "stock": 40, "rating": 4.7 },
-    { "id": "prod-88cbe191-004", "name": "Deep Learning Illustrated", "category": "books", "price": 1200.00, "stock": 20, "rating": 4.6 },
-    { "id": "prod-88cbe191-005", "name": "Introduction to Algorithms", "category": "books", "price": 2500.00, "stock": 33, "rating": 4.9 },
-
-    { "id": "prod-88cbe191-006", "name": "Wireless Mouse", "category": "electronics", "price": 799.00, "stock": 60, "rating": 4.4 },
-    { "id": "prod-88cbe191-007", "name": "Mechanical Keyboard", "category": "electronics", "price": 3499.00, "stock": 25, "rating": 4.7 },
-    { "id": "prod-88cbe191-008", "name": "USB-C Charger", "category": "electronics", "price": 1299.00, "stock": 80, "rating": 4.5 },
-    { "id": "prod-88cbe191-009", "name": "Bluetooth Headphones", "category": "electronics", "price": 2999.00, "stock": 35, "rating": 4.6 },
-    { "id": "prod-88cbe191-010", "name": "Smartwatch", "category": "electronics", "price": 5999.00, "stock": 15, "rating": 4.3 },
-
-    { "id": "prod-88cbe191-011", "name": "Men's T-Shirt", "category": "clothing", "price": 499.00, "stock": 100, "rating": 4.2 },
-    { "id": "prod-88cbe191-012", "name": "Women's Jeans", "category": "clothing", "price": 1499.00, "stock": 45, "rating": 4.5 },
-    { "id": "prod-88cbe191-013", "name": "Sneakers", "category": "clothing", "price": 2499.00, "stock": 30, "rating": 4.6 },
-    { "id": "prod-88cbe191-014", "name": "Jacket", "category": "clothing", "price": 3499.00, "stock": 20, "rating": 4.4 },
-
-    { "id": "prod-88cbe191-015", "name": "Office Chair", "category": "furniture", "price": 6999.00, "stock": 10, "rating": 4.5 },
-    { "id": "prod-88cbe191-016", "name": "Study Table", "category": "furniture", "price": 8999.00, "stock": 8, "rating": 4.6 },
-    { "id": "prod-88cbe191-017", "name": "Bookshelf", "category": "furniture", "price": 5499.00, "stock": 12, "rating": 4.3 },
-    { "id": "prod-88cbe191-018", "name": "Bedside Lamp", "category": "furniture", "price": 1299.00, "stock": 25, "rating": 4.4 }
+    {
+      "id": "prod-88cbe191-001",
+      "name": "Standard Item 1",
+      "category": "home",
+      "price": 162.49,
+      "stock": 167,
+      "rating": 1.9
+    },
+    {
+      "id": "prod-88cbe191-002",
+      "name": "Standard Item 2",
+      "category": "clothing",
+      "price": 281.95,
+      "stock": 55,
+      "rating": 1.4
+    },
+    {
+      "id": "prod-88cbe191-003",
+      "name": "Basic Item 3",
+      "category": "electronics",
+      "price": 362.04,
+      "stock": 81,
+      "rating": 2.8
+    },
+    {
+      "id": "prod-88cbe191-004",
+      "name": "Elite Item 4",
+      "category": "books",
+      "price": 46.64,
+      "stock": 20,
+      "rating": 4.3
+    },
+    {
+      "id": "prod-88cbe191-005",
+      "name": "Pro Item 5",
+      "category": "home",
+      "price": 327.3,
+      "stock": 185,
+      "rating": 4.7
+    },
+    {
+      "id": "prod-88cbe191-006",
+      "name": "Standard Item 6",
+      "category": "clothing",
+      "price": 331.4,
+      "stock": 148,
+      "rating": 1.8
+    },
+    {
+      "id": "prod-88cbe191-007",
+      "name": "Pro Item 7",
+      "category": "home",
+      "price": 440.38,
+      "stock": 64,
+      "rating": 3.8
+    },
+    {
+      "id": "prod-88cbe191-008",
+      "name": "Premium Item 8",
+      "category": "books",
+      "price": 425.23,
+      "stock": 82,
+      "rating": 5
+    },
+    {
+      "id": "prod-88cbe191-009",
+      "name": "Pro Item 9",
+      "category": "home",
+      "price": 204.24,
+      "stock": 117,
+      "rating": 2.1
+    },
+    {
+      "id": "prod-88cbe191-010",
+      "name": "Pro Item 10",
+      "category": "electronics",
+      "price": 53.58,
+      "stock": 101,
+      "rating": 2.7
+    },
+    {
+      "id": "prod-88cbe191-011",
+      "name": "Pro Item 11",
+      "category": "clothing",
+      "price": 419.69,
+      "stock": 78,
+      "rating": 3.3
+    },
+    {
+      "id": "prod-88cbe191-012",
+      "name": "Pro Item 12",
+      "category": "electronics",
+      "price": 256.89,
+      "stock": 164,
+      "rating": 1.3
+    },
+    {
+      "id": "prod-88cbe191-013",
+      "name": "Standard Item 13",
+      "category": "books",
+      "price": 20.39,
+      "stock": 105,
+      "rating": 3.4
+    },
+    {
+      "id": "prod-88cbe191-014",
+      "name": "Premium Item 14",
+      "category": "electronics",
+      "price": 426.19,
+      "stock": 122,
+      "rating": 3.8
+    },
+    {
+      "id": "prod-88cbe191-015",
+      "name": "Elite Item 15",
+      "category": "clothing",
+      "price": 66.64,
+      "stock": 125,
+      "rating": 4.6
+    },
+    {
+      "id": "prod-88cbe191-016",
+      "name": "Elite Item 16",
+      "category": "books",
+      "price": 432.94,
+      "stock": 192,
+      "rating": 3
+    },
+    {
+      "id": "prod-88cbe191-017",
+      "name": "Basic Item 17",
+      "category": "books",
+      "price": 483.95,
+      "stock": 74,
+      "rating": 3.2
+    },
+    {
+      "id": "prod-88cbe191-018",
+      "name": "Standard Item 18",
+      "category": "sports",
+      "price": 98.02,
+      "stock": 108,
+      "rating": 2.1
+    }
   ],
   "aggregations": {
     "books": {
